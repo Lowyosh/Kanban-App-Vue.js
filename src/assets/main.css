@@ -1,0 +1,45 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: rgb(0, 63, 42);
+  transition: 0.4s;
+  padding: .8rem 2rem;
+  background-color: #ffffffab;
+  border-radius: .6rem;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: hsla(160, 100%, 37%, 1);
+    background-color: #fffffff2;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    background-image: url("fondo/fondo_home.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+}
+
+body .on {
+  background-image: url(../../img/kanban_dia.jpg);
+}
+
+body .off {
+  background-image: url(../../img/kanban_noche.jpg);
+}
